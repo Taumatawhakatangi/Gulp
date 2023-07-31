@@ -1,0 +1,17 @@
+p {
+  font-family: 20px;
+  color: red;
+}
+p span {
+  font-size: 30px;
+}
+p span::after {
+  display: block;
+}
+body {
+  background-color: aqua;
+  font-size: 20px;
+}
+body .header {
+  padding: 20px;
+}
